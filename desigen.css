@@ -1,0 +1,48 @@
+body {
+    background: blue;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.warp {
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: rgb(39, 2, 2);
+    padding: 15px;
+}
+
+.display {
+    width: 100%;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button {
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
